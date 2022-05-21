@@ -60,7 +60,8 @@
             android:text="Button"
             android:textSize="50sp"
             app:layout_column="0"
-            app:layout_row="0" />
+            app:layout_row="0"
+            tools:ignore="DuplicateSpeakableTextCheck" />
 
         <Button
             android:id="@+id/button2"
