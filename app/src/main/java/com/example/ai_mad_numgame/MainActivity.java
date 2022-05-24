@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
         {
             correctAnswer=operand1/operand2;
         }
-        else(operator.equals("-"))
+        else if (operator.equals("-"))
         {
             correctAnswer=operand1-operand2;
         }
